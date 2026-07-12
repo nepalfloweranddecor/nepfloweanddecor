@@ -41,6 +41,9 @@ export default function Home() {
     </div>
   </div>
 </div>
+  <div>
+    <h1>Our Decorations</h1>
+  </div>
     </>
   );
 }
