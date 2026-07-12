@@ -41,8 +41,25 @@ export default function Home() {
     </div>
   </div>
 </div>
+  <div className=" flex  flex-col mt-3">
+    <h1 className="w-full text-5xl text-center mt-5"
+      style={{ fontFamily: "Federo, sans-serif" }}
+    >About Us</h1>
+   <div className="max-w-5xl mx-auto bg-white rounded-xl shadow-lg p-8">
+  <p className="text-lg leading-8 mb-6">
+    At <span className="font-semibold">Nepal Flower and Decor</span>, we bring your dream events to life with elegant decorations, creative floral arrangements, and professional event planning. Whether it's a wedding, engagement, birthday, corporate event, or any special celebration, our team is dedicated to making every moment memorable.
+  </p>
+
+  <p className="text-lg leading-8">
+    From stunning venue décor to seamless event coordination, we focus on every detail so you can enjoy your special day stress-free. With creativity, quality, and a passion for excellence, Nepal Flower and Decor transforms your vision into an unforgettable experience.
+  </p>
+</div>
+  </div>
+
   <div>
-    <h1>Our Decorations</h1>
+    <h1 
+      style={{ fontFamily: "Federo, sans-serif" }}
+    >Wedding Desgins</h1>
   </div>
     </>
   );

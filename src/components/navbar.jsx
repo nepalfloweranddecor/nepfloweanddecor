@@ -8,7 +8,7 @@ export default function Navbar() {
   const navbar = [
     { name: "Home", link: "/" },
     { name: "Services", link: "/services" },
-    { name: "Shop", link: "/shop" },
+    { name: "Designs", link: "/designs" },
     { name: "Contact", link:"/contact"}
   ];
 

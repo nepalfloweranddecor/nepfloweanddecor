@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./pages/homepage";
 import Services from "./pages/services";
 import Contact from "./pages/contact"
+import Desgins from "./pages/Designs";
 export default function App() {
   return (
     <Routes>
@@ -22,6 +23,16 @@ export default function App() {
         </>
       }
       />
+
+      <Route
+      path="/designs"
+      element={
+        <>
+        {<Desgins/>}
+        </>
+      }
+      />
+
       <Route
       path="/contact"
       element={
