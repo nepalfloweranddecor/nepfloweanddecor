@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-
+import { FiShoppingCart } from "react-icons/fi";
+import { motion } from "framer-motion"
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -8,10 +9,15 @@ export default function Navbar() {
     { name: "Home", link: "/" },
     { name: "Services", link: "/services" },
     { name: "Shop", link: "/shop" },
+    { name: "Contact", link:"/contact"}
   ];
 
   return (
-    <nav className="w-full px-6 py-4 shadow-md bg-[#f7f4ef]">
+    <motion.nav 
+    initial={{y:-100,opacity:0}}
+    animate={{y :0 , opacity:1}}
+    transition={{duration:0.6 , ease: "easeOut"}}
+    className="w-full px-6 py-4 shadow-md bg-[#f7f4ef]">
       {/* Top Navbar */}
       <div className="flex items-center justify-between">
         {/* Logo */}
@@ -35,7 +41,9 @@ export default function Navbar() {
             </li>
           ))}
         </ul>
-
+  <button className="relative px-5">
+    <FiShoppingCart className="text-2xl" />
+  </button>
         {/* Mobile Menu Button */}
         <button
           className="md:hidden text-3xl"
@@ -61,6 +69,6 @@ export default function Navbar() {
           ))}
         </div>
       )}
-    </nav>
+    </motion.nav>
   );
 }
