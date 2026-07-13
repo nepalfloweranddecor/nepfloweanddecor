@@ -159,11 +159,13 @@ export default function Home() {
       Nepal Flower and Decor
     </span>
 
-    <h1 className="text-white text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mt-4">
+    <h1 className="text-white text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mt-4"
+    style = {{ fontFamily: "Federo, sans-serif" }}>
       Every event deserves
     </h1>
 
     <TypeAnimation
+     style={{ fontFamily: "Federo, sans-serif" }}
       sequence={[
         "a floral identity.",
         2000,
@@ -257,9 +259,9 @@ export default function Home() {
       </div>
 
       {/* Wedding Designs Section */}
-      <div className="py-4 mt-9">
+      <div className="py-4 mt-9 bg-[#f7ead5]">
         <h2
-          className="p-2 w-full text-5xl text-center place-self-center text-red-900 bg-[#f7ead5]"
+          className="p-2 w-full text-5xl text-center place-self-center text-red-900"
           style={{ fontFamily: "Federo, sans-serif" }}
         >
           Our Services
@@ -287,18 +289,14 @@ export default function Home() {
             </div>
           ))}
         </div>
-        <div className="flex justify-center mt-3">
-          <button className="px-5 py-2 text-xl rounded-full bg-amber-100 text-black font-medium hover:bg-green-800 hover:text-white transition">
-            View Gallery
-          </button>
-        </div>
       </div>
 </section>
       {/* Testimonials Section */}
       <section 
       id="testimony"
-      className="p-4 bg-[#FDF6EC]">
-        <div style={{ fontFamily: "Federo, sans-serif" }}>
+      className="p-4 bg-[#FDF6EC] mt-">
+        <div className="mt-5"
+        style={{ fontFamily: "Federo, sans-serif" }}>
           <h2 className="text-5xl text-center">Testimonials</h2>
           <h3 className="text-3xl text-center mt-3 font-normal">
             What our clients say

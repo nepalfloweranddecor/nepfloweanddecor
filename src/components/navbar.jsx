@@ -21,9 +21,9 @@ export default function Navbar() {
       {/* Top Navbar */}
       <div className="flex items-center justify-between">
         {/* Logo */}
-        <h1 className="text-1xl font-medium">
-          <span className="text-green-800">Nepal </span>
-          <span className="text-red-900">Flower</span> & Decor
+        <h1 className="text-xl font-medium">
+          <span className="text-green-800 text-5xl" style={{ fontFamily: "Federo, sans-serif" }}>Nepal </span>
+          <span className="text-red-900"  style={{ fontFamily: "Federo, sans-serif" }}>Flower</span> & Decor
         </h1>
 
         {/* Desktop Menu */}

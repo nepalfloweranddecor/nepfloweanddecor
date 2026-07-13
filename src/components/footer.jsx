@@ -24,14 +24,12 @@ export default function Footer() {
 
           {/* Company */}
           <div className="lg:col-span-2">
-            <h2
-              className="text-3xl text-white"
-              style={{ fontFamily: "Federo, sans-serif" }}
+            <h1 className="text-5xl font-medium"
+             style={{ fontFamily: "Federo, sans-serif" }}
             >
-              Nepal Flower
-              <span className="text-green-500"> & Decor</span>
-            </h2>
-
+          <span className="text-green-800"  style={{ fontFamily: "Federo, sans-serif" }}>Nepal </span>
+          <span className="text-red-900"  style={{ fontFamily: "Federo, sans-serif" }}>Flower</span> & Decor
+        </h1>
             <p className="mt-5 leading-8 text-gray-400">
               Nepal Flower and Decor is a professional wedding decoration,
               floral design and event management company based in Kathmandu,
@@ -223,15 +221,6 @@ export default function Footer() {
           </p>
 
           <div className="flex gap-6">
-
-            <a href="#" className="hover:text-green-500">
-              Privacy Policy
-            </a>
-
-            <a href="#" className="hover:text-green-500">
-              Terms
-            </a>
-
             <a href="https://maps.app.goo.gl/JhyRWwSRqptfNDGQ7" className="hover:text-green-500">
               Sitemap
             </a>
