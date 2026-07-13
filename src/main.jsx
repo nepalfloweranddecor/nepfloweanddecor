@@ -5,6 +5,7 @@ import App from "./App";
 import "@fontsource/dm-mono";
 import './index.css'
 import "@fontsource/federo";
+import "@fontsource/yatra-one";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <BrowserRouter>
     <App />
