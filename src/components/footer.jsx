@@ -2,7 +2,6 @@ import {
   FaFacebookF,
   FaInstagram,
   FaYoutube,
-  FaWhatsapp,
 } from "react-icons/fa";
 
 import {
@@ -41,32 +40,26 @@ export default function Footer() {
             <div className="flex gap-4 mt-8">
 
               <a
-                href="#"
+                href="https://www.facebook.com/nepalflower/#"
                 className="w-10 h-10 rounded-full bg-gray-800 hover:bg-green-600 transition flex items-center justify-center"
               >
                 <FaFacebookF />
               </a>
 
               <a
-                href="#"
+                href="https://www.instagram.com/nepalfloweranddecor/"
                 className="w-10 h-10 rounded-full bg-gray-800 hover:bg-pink-600 transition flex items-center justify-center"
               >
                 <FaInstagram />
               </a>
 
               <a
-                href="#"
+                href="https://www.youtube.com/@nepalfloweranddecor1159?app=desktop"
                 className="w-10 h-10 rounded-full bg-gray-800 hover:bg-red-600 transition flex items-center justify-center"
               >
                 <FaYoutube />
               </a>
 
-              <a
-                href="#"
-                className="w-10 h-10 rounded-full bg-gray-800 hover:bg-green-500 transition flex items-center justify-center"
-              >
-                <FaWhatsapp />
-              </a>
 
             </div>
           </div>
@@ -194,7 +187,7 @@ export default function Footer() {
                 <Clock className="text-green-500" size={18} />
 
                 <p>
-                  Sun - Fri
+                  Sun-Sat
                   <br />
                   9:00 AM - 7:00 PM
                 </p>
