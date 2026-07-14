@@ -199,14 +199,14 @@ export default function Home() {
       className="text-6xl sm:text-5xl lg:text-9xl font-bold text-red-700"
       style={{ fontFamily: "'Yatra One'" }}
     >
-      तपाईंको खास
+     Your Special Moments
     </h2>
 
     <h2
       className="text-8xl sm:text-5xl lg:text-9xl font-bold text-white mt-2"
       style={{ fontFamily: "'Yatra One'" }}
     >
-      क्षण, हाम्रो <span className="text-amber-500">सेवा।</span>
+      Our  <span className="text-amber-500">Service.</span>
     </h2>
   </div>
   </div>
