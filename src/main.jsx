@@ -1,4 +1,4 @@
-import React from "react";
+import React, { StrictMode } from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import App from "./App";
@@ -7,7 +7,8 @@ import './index.css'
 import "@fontsource/federo";
 import "@fontsource/yatra-one";
 ReactDOM.createRoot(document.getElementById("root")).render(
+  <StrictMode>
   <BrowserRouter>
     <App />
-  </BrowserRouter>
+  </BrowserRouter></StrictMode>
 );
