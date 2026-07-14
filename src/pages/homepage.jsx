@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
+import WhatsappButton from "../components/whatsapp";
 import { Link } from "react-router-dom";
 import { TypeAnimation } from "react-type-animation";
 
@@ -251,14 +252,15 @@ export default function Home() {
         {/* Right Side */}
         <div className="md:w-1/2">
           <img
-            src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=800&q=80"
+            src="https://res.cloudinary.com/aavhigm6/image/upload/v1784013344/nfdevents_beyy1f.png"
             alt="Elegant wedding decoration by Nepal Flower and Decor in Kathmandu"
             loading="lazy"
             className="w-full h-137.5 object-cover rounded-b-full shadow-lg hover:scale-105 transition duration-500"
           />
         </div>
       </div>
-
+      </section>
+<section id="services">
       {/* Wedding Designs Section */}
       <div className="py-4 mt-9 bg-[#f7ead5]">
         <h2
@@ -370,6 +372,7 @@ export default function Home() {
   </div>
       </section>
       <Footer/>
+      <WhatsappButton/>
     </>
   );
 }
