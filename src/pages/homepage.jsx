@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
+import { Link } from "react-router-dom";
 import { TypeAnimation } from "react-type-animation";
 
 export default function Home() {
@@ -23,7 +24,7 @@ export default function Home() {
     {
       title: "Mandap Decoration",
       image:
-        "https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&w=800&q=80",
+        "https://res.cloudinary.com/aavhigm6/image/upload/v1784012261/mandapevent_cfvfvb.jpg",
     },
     {
       title: "Outdoor Wedding Decoration",
@@ -211,7 +212,7 @@ export default function Home() {
 
 </div>
       {/* About Section */}
-      <section id="about">
+      <section id="about ">
       <div className="flex flex-col md:flex-row items-center gap-10 mt-10 max-w-7xl mx-auto bg-[#FDF6EC] rounded-xl shadow-2xl p-8">
         {/* Left Side */}
         <div className="md:w-1/2">
@@ -283,18 +284,18 @@ export default function Home() {
               <div className="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition duration-500"></div>
 
               {/* Title */}
-              <div className="absolute bottom-6 left-6 text-white">
+              <div className="absolute bottom-6 left-6 text-white ">
                 <h3 className="text-2xl font-bold">{design.title}</h3>
               </div>
             </div>
           ))}
         </div>
-      </div>
+</div>
 </section>
       {/* Testimonials Section */}
       <section 
       id="testimony"
-      className="p-4 bg-[#FDF6EC] mt-">
+      className="p-4 bg-[#FDF6EC]">
         <div className="mt-5"
         style={{ fontFamily: "Federo, sans-serif" }}>
           <h2 className="text-5xl text-center">Testimonials</h2>
@@ -329,7 +330,45 @@ export default function Home() {
       <section>
 
       </section>
-      
+      <section className="mt-6 mb-6">
+        <div className="max-w-4xl mx-auto bg-amber-100 rounded-2xl shadow-lg p-6 md:p-10 flex flex-col lg:flex-row items-center justify-between gap-">
+
+    {/* Left Section */}
+    <div className="lg:w-2/3">
+      <h1 className="text-3xl md:text-4xl font-bold mb-4"
+         style={{ fontFamily: "Federo, sans-serif" }}>
+        Get in Touch
+      </h1>
+
+      <p className="text-gray-600 text-base md:text-lg leading-8">
+        We'd love to hear about your upcoming celebration! Whether you're
+        planning a wedding, corporate event, birthday, or any special
+        occasion, our team is here to help bring your vision to life.
+
+        <br/>
+
+        Have a question, need a custom quote, or want to discuss your ideas?
+        Get in touch with us today, and let's create an unforgettable event
+        together.
+
+        <br />
+
+        <span className="font-semibold">
+          Let's make your dream event a reality.
+        </span>
+      </p>
+    </div>
+
+    {/* Right Section */}
+    <div className="flex justify-center lg:justify-end lg:w-1/3 mt-3">
+    <Link to = "/contact">
+      <button className="bg-black hover:bg-amber-50 hover:text-red-900 font-semibold hover:border-2 text-white px-8 py-3 rounded-lg transition">
+        Book a Consulation
+      </button></Link>
+    </div>
+
+  </div>
+      </section>
       <Footer/>
     </>
   );
