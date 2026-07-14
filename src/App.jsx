@@ -3,7 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./pages/homepage";
 import Services from "./pages/services";
 import Contact from "./pages/contact"
-import Desgins from "./pages/Designs";
+import Gallery from "./pages/Gallery"
 export default function App() {
   return (
     <Routes>
@@ -25,10 +25,10 @@ export default function App() {
       />
 
       <Route
-      path="/designs"
+      path="/Gallery"
       element={
         <>
-        {<Desgins/>}
+        {<Gallery/>}
         </>
       }
       />

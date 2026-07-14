@@ -15,12 +15,12 @@ export default function Home() {
     {
       title: "Traditional Wedding Decoration",
       image:
-        "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=800&q=80",
+        "https://res.cloudinary.com/aavhigm6/image/upload/v1784018450/traditional_images_hnifdb.jpg",
     },
     {
       title: "Reception Decoration",
       image:
-        "https://images.unsplash.com/photo-1469371670807-013ccf25f16a?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1469371670807-013ccf25f16a?auto=format&fit=crop&w=800&q=80?auto=format&fit=crop&w=800&q=80",
     },
     {
       title: "Mandap Decoration",

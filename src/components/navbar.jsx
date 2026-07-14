@@ -10,7 +10,7 @@ export default function Navbar() {
   const navbar = [
     { name: "Home", link: "/", hash: false },
     { name: "Services", link: "/#services", hash: true },
-    { name: "Designs", link: "/designs", hash: false },
+    { name: "Gallery", link: "/designs", hash: false },
     { name: "Contact", link: "/contact", hash: false },
   ];
 
@@ -66,10 +66,6 @@ export default function Navbar() {
           ))}
         </ul>
 
-        {/* Cart */}
-        <button className="relative px-5">
-          <FiShoppingCart className="text-2xl" />
-        </button>
 
         {/* Mobile Menu Button */}
         <button
