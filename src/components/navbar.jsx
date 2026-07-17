@@ -10,7 +10,7 @@ export default function Navbar() {
   const navbar = [
     { name: "Home", link: "/", hash: false },
     { name: "Services", link: "/#services", hash: true },
-    { name: "Gallery", link: "/designs", hash: false },
+    { name: "Gallery", link: "/gallery", hash: false },
     { name: "Contact", link: "/contact", hash: false },
   ];
 
