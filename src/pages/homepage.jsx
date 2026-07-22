@@ -49,7 +49,7 @@ export default function Home() {
       rating: 5,
     },
     {
-      name: "Pramod Karki",
+      name: "Aakash Shah",
       event: "Event Managment",
       review:
         "The team was professional, creative, and punctual. They designed an amazing  setup that exceeded our expectations. Highly recommended!",
